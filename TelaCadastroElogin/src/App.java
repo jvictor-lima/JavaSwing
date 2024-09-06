@@ -5,15 +5,15 @@ import vic.cadastro.Cadastro;
 public class App {
     public static void main(String[] args) {
 
-            // Valores cadastrados (exemplo)
-            String registeredUsername = "usuario"; // Usuário cadastrado
-            String registeredPassword = "senha123"; // Senha cadastrada
+
+            String registeredUsername = "usuario"; 
+            String registeredPassword = "senha123"; 
     
             SwingUtilities.invokeLater(() -> {
-                // Garante que a criação da interface gráfica ocorra na Thread de Despacho de Eventos do Swing
+               
                 LoginScreen loginScreen = new LoginScreen(registeredUsername, registeredPassword);
-                // Cria uma instância da tela de login com os dados cadastrados
-                loginScreen.setVisible(true); // Torna a janela visível
+                
+                loginScreen.setVisible(true); 
             });
         
 
